@@ -4,14 +4,18 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="/codingFoundations/assignments/HTMLRegisterPage/main.css">
     <title>HTML Register Page</title>
 </head>
 <body>
-    <p>
-        <button type="button">About Us</button> 
-        <button type="button">Log In</button>
-    </p>
-
+    
+    <div class="buttons">
+        <p>
+            <button type="button">About Us</button> 
+            <button type="button">Log In</button>
+        </p>
+    </div>
+    
     <br />
 
     <div style="box-sizing: border-box;">
@@ -19,16 +23,16 @@
             <fieldset>
                 <legend>Sign Up for Squishmellows</legend>
                 <p>
-                    <label>Email <input type="email" name="email" /></label>
+                    <input type="email" id="email" value="Email" />
                 </p>
                 <p>
-                    <label>Username <input name="name" type="username" /></label>
+                    <input type="UserName" id="username" value="Username" />
                 </p>
                 <p>
-                    <label>Password <input type="password" name="password" /></label>
+                    <input type="Box" id="password" value="Password" />
                 </p>
                 <p>
-                    <label>Confirm Password <input type="password" name="password" /></label>
+                    <input type="Box" id="confirm password" value="Confirm Password" />
                 </p>
                 <p>
                     <button type="submit">Submit</button>
