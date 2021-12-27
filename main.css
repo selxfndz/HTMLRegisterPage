@@ -1,4 +1,46 @@
 body {
-    background-color: rgb(192, 171, 206); 
+    background-color: rgb(141, 190, 223); 
+
 }
 
+button {
+    background-color: rgb(207, 141, 193);
+    margin: 10px;
+    padding: 5px;
+    color: rgb(0, 0, 0);
+    border-width: 1px;
+    font-family: monospace;
+}
+
+.box-sizing {
+    text-align: center;
+    border-width: 1px;
+    font-family: monospace;
+}
+
+legend {
+    text-align: center;
+    font-size: 24px;
+    font-family: monospace; 
+    font-weight: 600;
+    background-color: rgb(224, 180, 200);
+    color: rgb(35, 53, 85);
+}
+
+form {
+    text-align: center;
+    background-color: rgb(167, 199, 141);
+    border: 12px solid rgb(235, 236, 138);
+    margin: 50px 250px 200px 200px;
+    padding: 20px 20px 20px 40px;
+    font-family: monospace;
+}
+
+p {
+    border: 15px;
+    text-align: center;
+    font-family: monospace;
+    font-weight: 600;
+    font-size: 20px;
+    color: rgb(170, 142, 82);
+}
